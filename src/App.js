@@ -29,7 +29,6 @@ import Robo from './Components/Events/Club Events/Robo';
 import StarNight from './Components/Events/Club Events/StarNight';
 import TechTalk from './Components/Events/Club Events/TechTalk';
 import TheMelodyBooms from './Components/Events/Club Events/TheMelodyBooms';
-import ComingSoon from './Components/Events/Club Events/ComingSoon';
 import SuperHacks from './Components/Events/Club Events/SuperHacks';
 function App() {
   return (
