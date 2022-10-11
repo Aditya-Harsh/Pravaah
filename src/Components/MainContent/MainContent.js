@@ -11,7 +11,12 @@ function MainContent() {
           <div className="left">
           <h1 align='left'><span className='GradientText'>Welcome to Future</span> </h1>
             <h2 align='left'>
-            The Technical fest - 'Tech प्रवाह' is being organised with the sole purpose to showcase the flow of technology, ideas and innovation in current youth. This fest would not only help the students to compete but also would help them to learn new things and innovate new ideas through various activities for further development .
+              During the past era, technology has played a major role in shaping one continent.<br/>
+              It has  revolutionized the nations in a way we never imagined and even now
+              it keeps on changing our view of the future.<br/>
+              The technical fest tech pravaah aims on showcasing the same flow.<br />
+              It showcases the flow of ideas, innovations, and technology in the future.
+
             </h2>
             <h1 align='left'>
               <span className='GradientText'>Get Ready For Tech प्रवाह 2022 !!!!

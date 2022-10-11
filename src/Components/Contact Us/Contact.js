@@ -8,17 +8,12 @@ function Contact() {
       <ContactStyled>
         <hr></hr>
         <br /><br /><span className='Big'><b>Connect Us</b></span><br /><br />
-        <div className="icons">
-          
-          
-    
-          
+        <div className="icons">        
           <ul>
           <br/>
           <a  href='https://instagram.com/pravaah_abesec' target="_blank" rel="noreferrer"><img className='ig' src={ig} alt=""></img></a>
             <a href='https://youtube.com/channel/UCtzwj36l1KQIYMGiwdGRgWA' target="_blank" rel="noreferrer"><img className='ig' src={yt} alt=""></img></a>
           </ul>
-          
           </div>
         <br />
         <b><span className='Small'>For any queries, Mail us at:</span><span className='title'> techfest22@abes.ac.in</span></b>

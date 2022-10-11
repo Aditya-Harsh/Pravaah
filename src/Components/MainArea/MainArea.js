@@ -22,7 +22,7 @@ function MainArea() {
 
 const MainStyle = styled.div`
     width: 100%;
-    height: 85vh;
+    height: 95vh;
     position: relative;
     overflow: hidden;
     .overlay{
