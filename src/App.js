@@ -29,7 +29,8 @@ import Robo from './Components/Events/Club Events/Robo';
 import StarNight from './Components/Events/Club Events/StarNight';
 import TechTalk from './Components/Events/Club Events/TechTalk';
 import TheMelodyBooms from './Components/Events/Club Events/TheMelodyBooms';
-import SuperHacks from './Components/Events/Club Events/SuperHacks';
+import SuperHacks from './Components/Events/Club Events/Hackathon';
+import ComingSoon from './Components/Events/Club Events/ComingSoon';
 function App() {
   return (
     
@@ -44,24 +45,24 @@ function App() {
           <Route path='/Sponsor' element={<Sponsors/>} />
           <Route path='/OrganizingTeam' element={<Organize />} />
           <Route path='/Contact' element={<Contact/>} />
-          <Route path='/Registration' element={<Registration />} />
-          <Route path='/GamingOdyssey' element={<GamingOdyssey />} />
-          <Route path='/SuperHacks' element={<SuperHacks />}  />
-          <Route path='/AICTE' element={<AICTE />} />
-          <Route path='/Robo' element={<Robo />} />
-          <Route path='/StarNight' element={<StarNight />} />
-          <Route path='/AandD' element={<AandD />} />
-          <Route path='/ARGaming' element={<ARGaming />} />
-          <Route path='/ARVR' element={<ARVR />} />
-          <Route path='/Barbie' element={<Barbie />} />
-          <Route path='/Circuitron' element={<Circuitron />} />
-          <Route path='/DPDE' element={<DPDE />} />
-          <Route path='/DPDM' element={<DPDM />} />
-          <Route path='/ESummit' element={<ESummit />} />
-          <Route path='/Junkyard' element={<Junkyard />} />
-          <Route path='/Pitch' element={<Pitch />} />
-          <Route path='/TechTalk' element={<TechTalk />} />
-          <Route path='/TheMelodyBooms' element={<TheMelodyBooms/>} />
+          <Route path='/Registration' element={<ComingSoon />} />
+          <Route path='/GamingOdyssey' element={<ComingSoon />} />
+          <Route path='/Hackathon' element={<ComingSoon />}  />
+          <Route path='/AICTE' element={<ComingSoon />} />
+          <Route path='/Robo' element={<ComingSoon />} />
+          <Route path='/StarNight' element={<ComingSoon />} />
+          <Route path='/AandD' element={<ComingSoon />} />
+          <Route path='/ARGaming' element={<ComingSoon />} />
+          <Route path='/ARVR' element={<ComingSoon />} />
+          <Route path='/Barbie' element={<ComingSoon />} />
+          <Route path='/Circuitron' element={<ComingSoon />} />
+          <Route path='/DPDE' element={<ComingSoon />} />
+          <Route path='/DPDM' element={<ComingSoon />} />
+          <Route path='/ESummit' element={<ComingSoon />} />
+          <Route path='/Junkyard' element={<ComingSoon />} />
+          <Route path='/Pitch' element={<ComingSoon />} />
+          <Route path='/TechTalk' element={<ComingSoon />} />
+          <Route path='/TheMelodyBooms' element={<ComingSoon/>} />
         </Routes>
 
       </div>

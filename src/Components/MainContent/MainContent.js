@@ -14,7 +14,7 @@ function MainContent() {
               During the past era, technology has played a major role in shaping one continent.<br/>
               It has  revolutionized the nations in a way we never imagined and even now
               it keeps on changing our view of the future.<br/>
-              The technical fest tech pravaah aims on showcasing the same flow.<br />
+              The technical fest Tech प्रवाह aims on showcasing the same flow.<br />
               It showcases the flow of ideas, innovations, and technology in the future.
 
             </h2>

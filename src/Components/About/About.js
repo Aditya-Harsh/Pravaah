@@ -6,20 +6,19 @@ function About() {
       <AboutStyled>
         <hr></hr>
         <br /><br /><span className='Big'><b>About Us</b></span><br/><br/>
-        <p align='left'>The annual Tech Fest -Tech प्रवाह is not just a fest,
-          it's an expression of euphoria. It serves the purpose of providing
-          a global platform for students to learn,innovate and broaden
-          their mindsets,and nobody could disagree that the best approach
-          of learning is through fun filled activities and events.<br /><br />
-          We invite you to an opportunity to think Big Thoughts,
-          to Create the life you Want with Technology.<br />
-          Join us to celebrate this Wonderful time Of the year and Explore your Future With us..
+        <p align='left'>
+          Tech प्रवाह is the annual technical event of ABES engineering College, Ghaziabad.
+          This fest is organized to provide the upcoming engineering enthusiast with a better
+          understanding of what technology is and how it has impacted over the years.
+          The fest will be a platform that would provide them with all the understanding
+          through fun activities and encouraging workshops.
+          Tech प्रवाह is here to give you an opportunity to peek into the flowing thoughts
+          and ideas being bought into the technical field.
         <br/>
           <br />
           
         </p>
-        We’ll make you laugh, we’ll make you cry, and we’ll
-        give you memories that last a lifetime.
+        Join us on upcoming days to explore them with us.
         <br/><br/><br/>
       </AboutStyled>
   )

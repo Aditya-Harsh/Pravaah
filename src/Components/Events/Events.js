@@ -25,22 +25,22 @@ function Event() {
         <br /><br /><span className='Big'><b>Events</b></span><br />
         <br /><br />
         <div className="gradient-cards-con">
-        <EventGradientCards image={Nexus} name={'Nexus - What the Hack!'} price={'₹30 '} days={' Day 1 + Day 2'} link={'/SuperHacks'} />
-        <EventGradientCards image={RSC} name={'Robo Soccer'} price={'₹30 '} days={' Day 1'} link={'/Robo'} />
-        <EventGradientCards image={Talentrove} name={'Gaming Odyssey'} price={'₹30  '} days={' Day 1'} link={'/GamingOdyssey'} />
-        <EventGradientCards image={STN} name={'DJ Night'} price={'₹30 '} days={' Day 1'} link={'/StarNight'} />
-        <EventGradientCards image={KKRT} name={'Degrees Of Sound'} price={'₹30 '} days={' Day 1'} link={'/TheMelodyBooms'} />
-        <EventGradientCards image={IDEA} name={'AICTE Idea Lab Challenge'} price={'₹30 '} days={' Day 1'} link={'/AICTE'} />
-        <EventGradientCards image={JYW} name={'Junkyard War'} price={'₹30 '} days={' Day 1'} link={'/Junkyard'} />
-        <EventGradientCards image={ABS} name={'The Idea Pitch'} price={'₹30  '} days={' Day 1'} link={'/Pitch'} />
-        <EventGradientCards image={ESMT} name={'E-Summit'} price={'₹30  '} days={' Day 1'} link={'/Esummit'} />
-        <EventGradientCards image={REQ} name={'Circuitron'} price={'₹30  '} days={' Day 1'} link={'/Circuitron'} />
-        <EventGradientCards image={EPD} name={'Digital Product Design (Electronics)'} price={'₹30  '} days={' Day 1'} link={'/DPDE'} />
-        <EventGradientCards image={MPD} name={'Digital Product Design (Mechanical)'} price={'₹30  '} days={' Day 1'} link={'/DPDM'} />
-        <EventGradientCards image={TT} name={'Achievers Talk'} price={'₹30 '} days={' Day 1'} link={'/TechTalk'} />
-        <EventGradientCards image={TVN} name={'Coding Fued'} price={'₹30 '} days={' Day 1'} link={'/ARVR'} />
-          <EventGradientCards image={CRU} name={'VR Gaming'} price={'₹30 '} days={' Day 1'} link={'/ARGaming'} />
-          <EventGradientCards image={DNC} name={'Dance Competition'} price={'₹30 '} days={' Day 1'} link={'/ARGaming'} />
+        <EventGradientCards image={Nexus} name={'Hackathon'} price={'TBA'} days={' Day 1 + Day 2'} link={'/Hackathon'} />
+        <EventGradientCards image={RSC} name={'Robo Soccer'} price={'TBA '} days={' Day 1'} link={'/Robo'} />
+        <EventGradientCards image={Talentrove} name={'Gaming Odyssey'} price={'₹50'} days={' Day 1 + Day 2'} link={'/GamingOdyssey'} />
+        <EventGradientCards image={STN} name={'DJ Night'} price={'Via Pass'} days={' Day 2'} link={'/StarNight'} />
+        <EventGradientCards image={KKRT} name={'Degrees Of Sound'} price={'₹800/Team'} days={' Day 1'} link={'/TheMelodyBooms'} />
+        <EventGradientCards image={IDEA} name={'AICTE Idea Lab Challenge'} price={'TBA'} days={' Day 1 + Day 2'} link={'/AICTE'} />
+        <EventGradientCards image={JYW} name={'Junkyard War'} price={'₹50'} days={' Day 1'} link={'/Junkyard'} />
+        <EventGradientCards image={ABS} name={'The Idea Pitch'} price={'TBA'} days={' Day 1'} link={'/Pitch'} />
+        <EventGradientCards image={ESMT} name={'E-Summit'} price={'TBA'} days={' Day 1'} link={'/Esummit'} />
+        <EventGradientCards image={REQ} name={'Circuitron'} price={'₹50'} days={' Day 1 + Day 2'} link={'/Circuitron'} />
+        <EventGradientCards image={EPD} name={'Digital Product Design (Electronics)'} price={'TBA'} days={' Day 1'} link={'/DPDE'} />
+        <EventGradientCards image={MPD} name={'Digital Product Design (Mechanical)'} price={'TBA'} days={' Day 1'} link={'/DPDM'} />
+        <EventGradientCards image={TT} name={'Achievers Talk'} price={'₹100'} days={' Day 2'} link={'/TechTalk'} />
+        <EventGradientCards image={TVN} name={'Coding Fued'} price={'₹100/Team'} days={' Day 1 + Day 2'} link={'/ARVR'} />
+          <EventGradientCards image={CRU} name={'VR Gaming'} price={'₹100'} days={' Day 1 + Day 2'} link={'/ARGaming'} />
+          <EventGradientCards image={DNC} name={'Dance Competition'} price={'TBA'} days={'TBA'} link={'/ARGaming'} />
          <br /><br />
         </div>
         <br /><br />
