@@ -39,7 +39,8 @@ function App() {
       <Navigation/>
       <div className="App">
         <Routes>
-          <Route path='/' element={<Fragment><MainArea/><BodyContent/></Fragment>}/>
+          <Route path='/' element={<Fragment><MainArea /><BodyContent /></Fragment>} />
+          <Route path='/pravaah' element={<Fragment><MainArea/><BodyContent/></Fragment>}/>
           <Route path='/About' element={<About />} />
           <Route path='/Events' element={<Events />} />
           <Route path='/Sponsor' element={<Sponsors/>} />
@@ -64,7 +65,6 @@ function App() {
           <Route path='/TechTalk' element={<ComingSoon />} />
           <Route path='/TheMelodyBooms' element={<ComingSoon/>} />
         </Routes>
-
       </div>
       <Footer/>
     </BrowserRouter>
