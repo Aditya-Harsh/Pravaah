@@ -13,20 +13,20 @@ function OrganizingTeam() {
       <OrgStyled>
         <hr></hr>
         <br /><br /><span className='Big'><b>Organizing Team</b></span><br /><br /><br />
-        <br /><br /><span className='Small'><b>Core Team</b></span><br /><br /><br />
+        <br /><br /><span className='Small'><b>Executive Team</b></span><br /><br /><br />
         <div className="cards">
-          <FlashCard image={ ARS} role={'General Secretary'} name={'Arpit Raj Shukla'} email={'arpit.19b311081@abes.ac.in'} contact={'8318862977'} />
+          <FlashCard image={ ARS} role={'Lead Coordinator'} name={'Arpit Raj Shukla'} email={'arpit.19b311081@abes.ac.in'} contact={'8318862977'} />
         </div><br />
         <div className="cards">
-        <FlashCard image={ AyushT} role={'Joint Secretary'} name={'Ayush Ranjan Tripathi'} email={'ayush.19b111038@abes.ac.in'} contact={'+917755893754'} />
-          <FlashCard image={ AdityaG} role={'Joint Secretary'} name={'Aditya Gupta'} email={'engineeraditya@pm.me'} contact={'+919169318989'} />
-          <FlashCard image={ PM} role={'Joint Secretary'} name={'Pawan Kumar Mishra'} email={'pawan.19b111064@abes.ac.in'} contact={'+919911659812'} />          
+        <FlashCard image={ AyushT} role={'Co-Lead Coordinator'} name={'Ayush Ranjan Tripathi'} email={'ayush.19b111038@abes.ac.in'} contact={'+917755893754'} />
+          <FlashCard image={ AdityaG} role={'Co-Lead Coordinator'} name={'Aditya Gupta'} email={'engineeraditya@pm.me'} contact={'+919169318989'} />
+          <FlashCard image={ PM} role={'Co-Lead Coordinator'} name={'Pawan Kumar Mishra'} email={'pawan.19b111064@abes.ac.in'} contact={'+919911659812'} />          
 
 
         </div><br />
         <div className="cards">
         <FlashCard image={ AKS} role={'Treasurer'} name={'Aditya Kumar Singh'} email={'aditya.19b131152@abes.ac.in'} contact={'+919660677927'} />
-          <FlashCard image={ ACM} role={'Joint Treasurer'} name={'Achintya Mishra'} email={'achintya.19b311171@abes.ac.in'} contact={'+918077570629'} />
+          <FlashCard image={ ACM} role={'Assistant Treasurer'} name={'Achintya Mishra'} email={'achintya.19b311171@abes.ac.in'} contact={'+918077570629'} />
           <FlashCard image={ AyushK} role={'Technical Lead'} name={'Ayush Kumar'} email={'ayush.19b311071@abes.ac.in'} contact={'+919984219294'} />          
 
         </div>

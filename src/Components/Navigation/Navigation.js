@@ -28,6 +28,7 @@ function Navigation() {
 const NavigationStyle = styled.nav`
     min-height: 10vh;
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(130deg,#000428,#004e92 50%,#000428);
@@ -51,8 +52,9 @@ const NavigationStyle = styled.nav`
     }
     .logo{
         img{
-            
-            width: 60%;
+            margin-left: 5vh;
+            margin-top: 1vh;
+            width: 12vh;
         }
     }
 `;

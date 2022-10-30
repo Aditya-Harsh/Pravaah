@@ -42,33 +42,32 @@ const MainContentStyle = styled.div`
     position: absolute;
     top: 0;
     left: 50%;
-    width: 80%;
-    height: 100%;
+    width: 80vw;
+    height: 95vh;
     transform: translateX(-50%);
     .content{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      display: flex;
       height: 100%;
       width: 100%;
       left: -10%;
       .left{
           position: absolute;
           left: -10%;
-          display: flex;
+          
           justify-content: center;
           flex-direction: column;
           h1{
-              padding: 1.8rem 0;
+              padding: 2% 0;
           }
           .btns-con{
-              margin-top: 0.75rem;
+              margin-top: 2%;
           }
       }
 
       
   }
   h2{
-    font-family:Nanum;
+    
     line-height: 150%;
   }
 `;

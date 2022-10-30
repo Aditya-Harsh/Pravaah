@@ -11,7 +11,6 @@ function BodyContent() {
     <BodyContentStyled>
       <About />
       <Event />
-      
       <OrganizingTeam/>
       <EventPartners/>  
       <Sponsor />
