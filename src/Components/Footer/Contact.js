@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { SectionStyled } from '../../Layout/Layout'
 import map from '../Images/map.png'
-import logo from '../Images/Contactlogo.png'
+import logo from '../Images/logo.png'
 import clogo from '../Images/clogo.png'
 
 function Contact() {
@@ -62,7 +62,7 @@ const ContactSectionStyled = styled.div`
         transform: translate(-50%, -50%);
         
         img{
-            width: 60%;
+            width: 25vw;
             opacity: 1;
         }
     }

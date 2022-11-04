@@ -46,7 +46,7 @@ function App() {
           <Route path='/Sponsor' element={<Sponsors/>} />
           <Route path='/OrganizingTeam' element={<Organize />} />
           <Route path='/Contact' element={<Contact/>} />
-          <Route path='/Registration' element={<ComingSoon />} />
+          <Route path='/Registration' element={<Registration />} />
           <Route path='/GamingOdyssey' element={<ComingSoon />} />
           <Route path='/Hackathon' element={<ComingSoon />}  />
           <Route path='/AICTE' element={<ComingSoon />} />

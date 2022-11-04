@@ -22,8 +22,6 @@ function EventPartners() {
         <img src={KKRT} alt="Kalakrit"></img>
         <img src={REQ} alt="Requiza"></img>
         <img src={CRU} alt="CreativeU"></img>
-        <img src={ABS} alt="ABES Business"></img>
-        <img src={CGB} alt="Enigma"></img><br/>
         <img src={JYW} alt="Environ"></img>
         <img src={AICTE} alt="AICTE"></img>
       </div>

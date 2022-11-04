@@ -32,7 +32,7 @@ function Event() {
         <EventGradientCards image={KKRT} name={'Degrees Of Sound'} price={'₹800/Team'} days={' Day 1'} link={'/TheMelodyBooms'} />
         <EventGradientCards image={IDEA} name={'AICTE Idea Lab Challenge'} price={'TBA'} days={' Day 1 + Day 2'} link={'/AICTE'} />
         <EventGradientCards image={JYW} name={'Junkyard War'} price={'₹50'} days={' Day 1'} link={'/Junkyard'} />
-        <EventGradientCards image={ABS} name={'The Idea Pitch'} price={'TBA'} days={' Day 1'} link={'/Pitch'} />
+        <EventGradientCards image={ABS} name={'Big Business Idea'} price={'TBA'} days={' Day 1'} link={'/Pitch'} />
         <EventGradientCards image={ESMT} name={'E-Summit'} price={'TBA'} days={' Day 1'} link={'/Esummit'} />
         <EventGradientCards image={REQ} name={'Circuitron'} price={'₹50'} days={' Day 1 + Day 2'} link={'/Circuitron'} />
         <EventGradientCards image={EPD} name={'Digital Product Design (Electronics)'} price={'TBA'} days={' Day 1'} link={'/DPDE'} />
@@ -40,7 +40,6 @@ function Event() {
         <EventGradientCards image={TT} name={'Achievers Talk'} price={'₹100'} days={' Day 2'} link={'/TechTalk'} />
         <EventGradientCards image={TVN} name={'Coding Fued'} price={'₹100/Team'} days={' Day 1 + Day 2'} link={'/ARVR'} />
           <EventGradientCards image={CRU} name={'VR Gaming'} price={'₹100'} days={' Day 1 + Day 2'} link={'/ARGaming'} />
-          <EventGradientCards image={DNC} name={'Dance Competition'} price={'TBA'} days={'TBA'} link={'/ARGaming'} />
          <br /><br />
         </div>
         <br /><br />
