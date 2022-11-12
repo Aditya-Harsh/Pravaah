@@ -1,0 +1,20 @@
+.navClass{
+    display: flex;
+    align-items: center;
+    padding-right:15px;
+}
+.navBar{ 
+    background: linear-gradient(130deg,#000428,#004e92 50%,#000428);
+}
+.primary-btn{
+    margin-left: 1rem;
+    background-color:rgba(57, 95, 246, 0.6);
+    padding: .6rem 1.3rem;
+    border-radius: 70px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.primary-btn:hover{
+        background: linear-gradient(130deg,#eb3fa9,#395ff6 50%,#eb3fa9);
+}
+

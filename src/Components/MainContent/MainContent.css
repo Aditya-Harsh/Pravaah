@@ -1,0 +1,12 @@
+  @media screen and (max-width: 1000px) {
+    .fontClassh2 {
+        font-size: 18px;
+    }
+    .fontClassh1 {
+        font-size: 30px;
+    }
+    .btns{
+        margin-top: 10%;
+        display: block;
+    }
+  }

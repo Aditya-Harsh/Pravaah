@@ -6,7 +6,7 @@ function About() {
       <AboutStyled>
         <hr></hr>
         <br /><br /><span className='Big'><b>About Us</b></span><br/><br/>
-        <p align='left'>
+        <p align='justify'>
           Tech प्रवाह is the annual technical event of ABES engineering College, Ghaziabad.
           This fest is organized to provide the upcoming engineering enthusiast with a better
           understanding of what technology is and how it has impacted over the years.
@@ -29,6 +29,14 @@ background: linear-gradient(130deg,#000428,#004e92 50%,#000428);
   p{
     margin-left: 10%;
     margin-right: 10%;
+  }
+  @media screen and (max-width: 1000px) {
+    .Big {
+        font-size: 30px;
+    }
+    p {
+        font-size: 18px;
+    }
   }
 `;
 

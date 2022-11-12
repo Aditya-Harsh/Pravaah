@@ -28,6 +28,7 @@ function FlashCard({ name, image, role, email, contact}) {
 const FlashStyled = styled.div`
 .maincontainer{
     position: relative;
+    margin-top: 10px;
     width: 250px;
     height: 250px;
     background: none;
@@ -97,7 +98,7 @@ const FlashStyled = styled.div`
     border-radius:5px;
   }
   .name{
-    font-size: 150%;
+    font-size: 100%;
     background: linear-gradient(120deg, rgb(132, 111, 244), rgb(241, 118, 116));
     background-clip: text;
     text-align: center;

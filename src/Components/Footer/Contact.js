@@ -14,6 +14,7 @@ function Contact() {
                     <h3 className="contact-title">
                         Contact Us
                     </h3>
+                    <div className='abes-logo'><img src={logo} alt="" /> {" "} <img src={clogo} alt="" /></div>
                     <p z-index='2'><a href="https://www.abes.ac.in/" target="_blank" rel="noreferrer">ABES Engineering College</a></p>
                     <p>19th KM Stone, NH-09, Ghaziabad, Uttar Pradesh 201009</p>
                     <p>techfest22@abes.ac.in</p>
@@ -44,6 +45,7 @@ const ContactSectionStyled = styled.div`
     p{
         opacity: 0.5;
     }
+    
     .bg-image{
         position: absolute;
         left: 50%;
@@ -93,6 +95,26 @@ const ContactSectionStyled = styled.div`
             background-color: #eb3fa9;
         }
     }
+    @media screen and (min-width: 1001px) {
+        .abes-logo{
+            display: none !important;
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        .contact-info{
+            display: block !important;
+        }
+        .r-image{
+            display: none;
+        }
+        .l-image{
+            display: none;
+        }
+        img{
+            width: 10%;
+            opacity: 1;
+        }
+      }
 `;
 
 export default Contact;

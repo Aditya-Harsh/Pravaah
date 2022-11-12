@@ -76,6 +76,10 @@ background: linear-gradient(130deg,#000428,#004e92 50%,#000428);
   
   
 }
+@media screen and (max-width: 1200px) {
+  .Small{
+      font-size: 23px !important;
+  }
 
 
 `;

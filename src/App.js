@@ -31,12 +31,13 @@ import TechTalk from './Components/Events/Club Events/TechTalk';
 import TheMelodyBooms from './Components/Events/Club Events/TheMelodyBooms';
 import SuperHacks from './Components/Events/Club Events/Hackathon';
 import ComingSoon from './Components/Events/Club Events/ComingSoon';
+import HeaderNav from './Components/Navigation/HeaderNav';
 function App() {
   return (
     
     <BrowserRouter>
       
-      <Navigation/>
+      <HeaderNav/>
       <div className="App">
         <Routes>
           <Route path='/' element={<Fragment><MainArea /><BodyContent /></Fragment>} />

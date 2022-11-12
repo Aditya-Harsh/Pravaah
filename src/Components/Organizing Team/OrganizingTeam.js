@@ -8,30 +8,29 @@ import AKS from '../Images/Organising Team/Aditya Kumar Singh.jpg'
 import PM from '../Images/Organising Team/Pawan Mishra.jpg'
 import ARS from '../Images/Organising Team/Arpit Raj Shukla.jpg'
 import FlashCard from './FlashCard';
+import { Container, Row, Col } from 'react-bootstrap';
+import './OrganizingTeam.css'
 function OrganizingTeam() {
     return (
       <OrgStyled>
-        <hr></hr>
-        <br /><br /><span className='Big'><b>Organizing Team</b></span><br /><br /><br />
-        <br /><br /><span className='Small'><b>Executive Team</b></span><br /><br /><br />
-        <div className="cards">
-          <FlashCard image={ ARS} role={'Lead Coordinator'} name={'Arpit Raj Shukla'} email={'arpit.19b311081@abes.ac.in'} contact={'8318862977'} />
-        </div><br />
-        <div className="cards">
-        <FlashCard image={ AyushT} role={'Co-Lead Coordinator'} name={'Ayush Ranjan Tripathi'} email={'ayush.19b111038@abes.ac.in'} contact={'+917755893754'} />
-          <FlashCard image={ AdityaG} role={'Co-Lead Coordinator'} name={'Aditya Gupta'} email={'engineeraditya@pm.me'} contact={'+919169318989'} />
-          <FlashCard image={ PM} role={'Co-Lead Coordinator'} name={'Pawan Kumar Mishra'} email={'pawan.19b111064@abes.ac.in'} contact={'+919911659812'} />          
-
-
-        </div><br />
-        <div className="cards">
-        <FlashCard image={ AKS} role={'Treasurer'} name={'Aditya Kumar Singh'} email={'aditya.19b131152@abes.ac.in'} contact={'+919660677927'} />
-          <FlashCard image={ ACM} role={'Assistant Treasurer'} name={'Achintya Mishra'} email={'achintya.19b311171@abes.ac.in'} contact={'+918077570629'} />
-          <FlashCard image={ AyushK} role={'Technical Lead'} name={'Ayush Kumar'} email={'ayush.19b311071@abes.ac.in'} contact={'+919984219294'} />          
-
-        </div>
+        <br /><br /><div className='Big'><b>Organizing Team</b></div>
+        <br /><br /><div className='Small '><b>Executive Team</b></div><br /><br /><hr></hr><br /><br /><br /><br /><br />
         
-        <br/><br/><br/>
+        <div></div>
+        <Container>
+        <Row>
+          <Col lg = {12} md = {12} sm ={12} xs ={12}><FlashCard image={ ARS} role={'Lead Coordinator'} name={'Arpit Raj Shukla'} email={'arpit.19b311081@abes.ac.in'} contact={'8318862977'} />
+</Col>
+          <Col lg = {4} md = {6} sm ={12} xs ={12}><FlashCard image={ AyushT} role={'Co-Lead Coordinator'} name={'Ayush Ranjan Tripathi'} email={'ayush.19b111038@abes.ac.in'} contact={'+917755893754'} /></Col>
+          <Col lg = {4} md = {6} sm ={12} xs ={12}><FlashCard image={ AdityaG} role={'Co-Lead Coordinator'} name={'Aditya Gupta'} email={'engineeraditya@pm.me'} contact={'+919169318989'} /></Col>
+          <Col lg = {4} md = {6} sm ={12} xs ={12}><FlashCard image={ PM} role={'Co-Lead Coordinator'} name={'Pawan Kumar Mishra'} email={'pawan.19b111064@abes.ac.in'} contact={'+919911659812'} /></Col>      
+          <Col lg = {4} md = {6} sm ={12} xs ={12}><FlashCard image={ AKS} role={'Treasurer'} name={'Aditya Kumar Singh'} email={'aditya.19b131152@abes.ac.in'} contact={'+919660677927'} /></Col>
+          <Col lg = {4} md = {6} sm ={12} xs ={12}><FlashCard image={ ACM} role={'Assistant Treasurer'} name={'Achintya Mishra'} email={'achintya.19b311171@abes.ac.in'} contact={'+918077570629'} /></Col>
+          <Col lg = {4} md = {6} sm ={12} xs ={12}><FlashCard image={ AyushK} role={'Technical Lead'} name={'Ayush Kumar'} email={'ayush.19b311071@abes.ac.in'} contact={'+919984219294'} /></Col>        
+        </Row>
+          <br/><br/><br/> 
+          </Container> 
+        
       </OrgStyled>
   )
 }

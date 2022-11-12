@@ -10,10 +10,8 @@ function MainArea() {
       <MainStyle>
           <video src={video} muted playsInline autoPlay loop></video>
           <InnerLayout>
-          
               <MainContent/>
-          </InnerLayout>
-          
+          </InnerLayout>     
       </MainStyle>
       
   )

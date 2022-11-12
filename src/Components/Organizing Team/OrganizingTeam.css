@@ -1,0 +1,12 @@
+.colClass{
+    margin-top: 10%;
+    position: absolute;
+}
+@media screen and (max-width: 1000px) {
+    .Big {
+        font-size: 30px !important;
+    }
+    .Small {
+        font-size: 23px !important;
+    }
+  }
