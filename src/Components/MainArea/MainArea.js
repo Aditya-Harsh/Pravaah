@@ -1,6 +1,5 @@
 import React from 'react'
 import video from '../Videos/mainVideo.mp4'
-import circles from '../Images/circles.svg'
 import styled from 'styled-components'
 import MainContent from '../MainContent/MainContent'
 import { InnerLayout } from '../../Layout/Layout'
